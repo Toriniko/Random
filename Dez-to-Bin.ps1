@@ -25,9 +25,9 @@ while($true)
     if($bin -le $number)
     {
         $number = $number - $bin
-        $binnumber = $binnumber.insert(14,"1")
+        $binnumber = $binnumber.insert(15,"1")
     }
-    else{$binnumber = $binnumber.insert(14,"0")}
+    else{$binnumber = $binnumber.insert(15,"0")}
     if($bin -eq 1){break}
     $bin = $bin / 2
 }
